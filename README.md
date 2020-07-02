@@ -12,7 +12,7 @@ Created with
 * HX711's Input Channel and Gain Selection : Ch.A, Gain 128
 
 ## How to use
-#### Getting started
+### Getting started
 1. Open the "SampleForC.slx" or "SampleForCpp.slx" model.
 
 2. Double-click the "HX711" block to open the "block parameter". You need to set the **appropriate** parameters for "DOUT Pin Number", "PD_SCK Pin Number" and "Data rate".
@@ -27,5 +27,5 @@ Created with
 
    *output = (binary data - offset) * scale*
 
-#### Implementation in your model
+### Implementation in your model
 Copy the "HX711" block to your model. If the target language is C, refer to "SampleForC.slx", and if C++, refer to "SampleForCpp.slx" for configuration parameters. Both models have the different configuration parameters but same blocks.
