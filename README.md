@@ -16,8 +16,8 @@ Created with
 1. Open the "SampleForC.slx" or "SampleForCpp.slx" model.
 
 2. Double-click the "HX711" block to open the "block parameter". You need to set the **appropriate** parameters for "DOUT Pin Number", "PD_SCK Pin Number" and "Data rate".
-#####   Note :
-   *  If you set a different data rate from the one set on the connected HX711 board, the time in the model will not match the real time.*
+##### Note :
+   *If you set a different data rate from the one set on the connected HX711 board, the time in the model will not match the real time.*
 
 3. Open the model's "configuration parameters" and change settings as needed. For example, Device Address, Username, etc.
 
