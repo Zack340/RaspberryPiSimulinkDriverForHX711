@@ -23,7 +23,7 @@ Created with
 
 3. Open the model's "configuration parameters" and change settings as needed. For example, Device Address, Username, etc.
 
-4. Click "Monitor & tune" on the model's "Hardware" tab to start logging. In default model, you log binary data.
+4. Click "Monitor & tune" on the model's "Hardware" tab to start logging. In default model, you will log binary data.
 
 5. Set the "offset" and "scale" by referring to the acquired binary data. (You may add a post-processing block for processing.) The relationship between "offset" and "scale" in the model is as follows.
 
