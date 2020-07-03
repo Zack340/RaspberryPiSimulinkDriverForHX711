@@ -10,7 +10,7 @@ This model makes it possible to log data from HX711 using Raspberry Pi on Simuli
 ## Compatibility
 Created with
 * MATLAB R2020a
-* Raspberry Pi 3B+/4B
+* Raspberry Pi 3B+
 * HX711's Input Channel and Gain Selection : Ch.A, Gain 128
 
 ## How to use
