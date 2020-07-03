@@ -10,8 +10,8 @@ extern "C" {
 
 void digitalIOSetup(uint8_T dout_Pin, uint8_T sck_Pin)
 {
-    uint8_T doutPin = dout_Pin;
-    uint8_T sckPin = sck_Pin;
+    doutPin = dout_Pin;
+    sckPin = sck_Pin;
     
     wiringPiSetupGpio();
     
@@ -25,9 +25,6 @@ void digitalIOSetup(uint8_T dout_Pin, uint8_T sck_Pin)
 
 uint32_T getValue()
 {
-    uint8_T doutPin = 27;
-    uint8_T sckPin = 17;
-    
     uint32_T data = 0;
     
     while (digitalRead(doutPin))
