@@ -1,4 +1,6 @@
 # Raspberry Pi Simulink Driver for HX711
+[![View Raspberry Pi Simulink Driver for HX711 on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/77627-raspberry-pi-simulink-driver-for-hx711)
+
 ## Overview
 This model makes it possible to log data from HX711 using Raspberry Pi on Simulink. This model simply reads the data from the HX711. Add post-processing blocks as needed. For example, filtering.
 
