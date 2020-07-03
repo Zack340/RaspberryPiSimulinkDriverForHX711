@@ -10,7 +10,7 @@ This model makes it possible to log data from HX711 using Raspberry Pi on Simuli
 ## Compatibility
 Created with
 * MATLAB R2020a
-* Raspberry Pi 3B+/4B
+* Raspberry Pi 3B+
 * HX711's Input Channel and Gain Selection : Ch.A, Gain 128
 
 ## How to use
@@ -23,9 +23,9 @@ Created with
 
 3. Open the model's "configuration parameters" and change settings as needed. For example, Device Address, Username, etc.
 
-4. Click "Monitor & tune" on the model's "Hardware" tab to start logging. In default model, you log binary data.
+4. Click "Monitor & tune" on the model's "Hardware" tab to start logging. In default model, you will log binary data.
 
-5. Set the "offset" and "scale" by referring to the acquired binary data. (You may add a post-processing block for processing.) The relationship between "offset" and "scale" in the model is as follows.
+5. Set the "offset" and "scale" by referring to the acquired binary data. (You may add a post-processing block for this process.) The relationship between "offset" and "scale" in the model is as follows.
 
    *output = (binary data - offset) * scale*
 
