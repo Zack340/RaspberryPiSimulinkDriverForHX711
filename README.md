@@ -48,6 +48,8 @@ Place the "src", "include" folders and "HX711Driver.m" on your model path.
   sudo dpkg -i wiringpi-latest.deb
   ```
 
+  Reference : [wiringPi updated to 2.52 for the Raspberry Pi 4B](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)
+
 ## Known issues
 * Spike noise
 
