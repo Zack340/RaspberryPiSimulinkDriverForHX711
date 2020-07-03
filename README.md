@@ -25,7 +25,7 @@ Created with
 
 4. Click "Monitor & tune" on the model's "Hardware" tab to start logging. In default model, you will log binary data.
 
-5. Set the "offset" and "scale" by referring to the acquired binary data. (You may add a post-processing block for processing.) The relationship between "offset" and "scale" in the model is as follows.
+5. Set the "offset" and "scale" by referring to the acquired binary data. (You may add a post-processing block for this process.) The relationship between "offset" and "scale" in the model is as follows.
 
    *output = (binary data - offset) * scale*
 
