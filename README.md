@@ -29,3 +29,8 @@ Created with
 
 ### Implementation in your model
 Copy the "HX711" block to your model. If the target language is C, refer to "SampleForC.slx", and if C++, refer to "SampleForCpp.slx" for configuration parameters. Both models have the different configuration parameters but same blocks.
+
+## Known issues
+* Spike noise
+
+   In rare cases, spike noise may be recorded in the data. It is presumed that the bit data of serial communication was misread, but the cause is unknown. Add filtering as needed.
