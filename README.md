@@ -32,6 +32,8 @@ Created with
 ### Implementation in your model
 Copy the "HX711" block to your model. If the target language is C, refer to "SampleForC.slx", and if C++, refer to "SampleForCpp.slx" for configuration parameters. Both models have the different configuration parameters but same blocks.
 
+Place the "src", "include" folders and "HX711Driver.m" on your model path.
+
 ## Known issues
 * Spike noise
 
