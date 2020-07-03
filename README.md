@@ -10,7 +10,7 @@ This model makes it possible to log data from HX711 using Raspberry Pi on Simuli
 ## Compatibility
 Created with
 * MATLAB R2020a
-* Raspberry Pi 3B+
+* Raspberry Pi 3B+ / 4B
 * HX711's Input Channel and Gain Selection : Ch.A, Gain 128
 
 ## How to use
@@ -33,6 +33,20 @@ Created with
 Copy the "HX711" block to your model. If the target language is C, refer to "SampleForC.slx", and if C++, refer to "SampleForCpp.slx" for configuration parameters. Both models have the different configuration parameters but same blocks.
 
 Place the "src", "include" folders and "HX711Driver.m" on your model path.
+
+## Troubleshoot
+* Doesn't work on the Raspberry Pi 4 Model B
+
+  This driver  requires **wiringPi version 2.52** for the Raspberry Pi 4 Model B. You can check the version with the following command on the Terminal.
+  ```
+  gpio -v
+  ```
+  If the version is not 2.52 or later, update it with the following command.
+  ```
+  cd /tmp
+  wget https://project-downloads.drogon.net/wiringpi-latest.deb
+  sudo dpkg -i wiringpi-latest.deb
+  ```
 
 ## Known issues
 * Spike noise
