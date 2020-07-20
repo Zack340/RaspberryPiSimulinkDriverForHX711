@@ -4,14 +4,14 @@ classdef HX711Driver < realtime.internal.SourceSampleTime ...
         & matlab.system.mixin.CustomIcon
 
     %
+    %   HX711 Driver for Raspberry Pi
+    %
     % 	Author : Eisuke Matsuzaki
-    % 	Created on : 2020/07/01
+    % 	Created on : 07/01/2020
     % 	Copyright (c) 2020 d’Arbeloff Lab, MIT Department of Mechanical Engineering
     %   Released under the MIT license
     %
-    %   HX711 Driver for Raspberry Pi
-    %
-    
+
     properties
         % Public, tunable properties.
     end
